@@ -37,7 +37,7 @@ def get_quick_income_keyboard() -> InlineKeyboardMarkup:
     )
     
     builder.row(
-        InlineKeyboardButton(text="💰 Другое доход", callback_data="income_category:101")
+        InlineKeyboardButton(text="💰 Другой доход", callback_data="income_category:101")
     )
     
     builder.row(
@@ -47,12 +47,12 @@ def get_quick_income_keyboard() -> InlineKeyboardMarkup:
     return builder.as_markup()
 
 
-def get_confirm_keyboard(action: str, data: str) -> InlineKeyboardMarkup:
+def get_confirm_keyboard(action: str) -> InlineKeyboardMarkup:
     """Клавиатура подтверждения"""
     builder = InlineKeyboardBuilder()
     
     builder.row(
-        InlineKeyboardButton(text="✅ Подтвердить", callback_data=f"{action}_confirm:{data}"),
+        InlineKeyboardButton(text="✅ Подтвердить", callback_data=f"{action}_confirm"),
         InlineKeyboardButton(text="❌ Отмена", callback_data="cancel")
     )
     

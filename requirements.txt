@@ -13,6 +13,7 @@ pandas==2.1.4
 openpyxl==3.1.2
 xlsxwriter==3.1.9
 reportlab==4.0.7
+matplotlib==3.9.2
 
 # Validation & Serialization
 pydantic==2.5.2

@@ -162,8 +162,26 @@ class TransactionService:
             logger.info(f"Создан новый пользователь {user_id}")
         
         return user
-        
-        return user
+
+    async def delete_transaction_by_id(self, user_id: int, transaction_id: int) -> bool:
+        """Удалить транзакцию по id, если она принадлежит пользователю."""
+        result = await self.session.execute(
+            select(Transaction).where(Transaction.id == transaction_id)
+        )
+        transaction = result.scalar_one_or_none()
+        if not transaction:
+            return False
+        if transaction.user_id != user_id:
+            return False
+        try:
+            await self.session.delete(transaction)
+            await self.session.commit()
+            logger.info(f"Удалена транзакция {transaction_id} пользователя {user_id}")
+            return True
+        except Exception as e:
+            logger.error(f"Ошибка удаления транзакции {transaction_id}: {e}")
+            await self.session.rollback()
+            return False
 
 
 def parse_amount(amount_str: str) -> Optional[Decimal]:

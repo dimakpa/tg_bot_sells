@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "name": "ЖИЛЬЕ",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 2,
+    "name": "Ипотека или аренда",
+    "kind": "expense",
+    "parent_id": 1
+  },
+  {
+    "id": 3,
+    "name": "ЖКХ",
+    "kind": "expense",
+    "parent_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Телефон/Интернет",
+    "kind": "expense",
+    "parent_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 1
+  },
+  {
+    "id": 6,
+    "name": "Транспорт",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 7,
+    "name": "Топливо",
+    "kind": "expense",
+    "parent_id": 6
+  },
+  {
+    "id": 8,
+    "name": "Уход за машиной",
+    "kind": "expense",
+    "parent_id": 6
+  },
+  {
+    "id": 9,
+    "name": "Ремонт/ТО",
+    "kind": "expense",
+    "parent_id": 6
+  },
+  {
+    "id": 10,
+    "name": "Штрафы",
+    "kind": "expense",
+    "parent_id": 6
+  },
+  {
+    "id": 11,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 6
+  },
+  {
+    "id": 12,
+    "name": "Еда",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 13,
+    "name": "Завтрак",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 14,
+    "name": "Обед",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 15,
+    "name": "Ужин",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 16,
+    "name": "Продукты",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 17,
+    "name": "Рестораны",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 18,
+    "name": "Кофе",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 19,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 12
+  },
+  {
+    "id": 20,
+    "name": "Уход за собой",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 21,
+    "name": "Стрижка",
+    "kind": "expense",
+    "parent_id": 20
+  },
+  {
+    "id": 22,
+    "name": "Фитнес-клуб",
+    "kind": "expense",
+    "parent_id": 20
+  },
+  {
+    "id": 23,
+    "name": "Спорт-пит",
+    "kind": "expense",
+    "parent_id": 20
+  },
+  {
+    "id": 24,
+    "name": "Мыльно-рыльное",
+    "kind": "expense",
+    "parent_id": 20
+  },
+  {
+    "id": 25,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 20
+  },
+  {
+    "id": 26,
+    "name": "Развлечения",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 27,
+    "name": "Чойс",
+    "kind": "expense",
+    "parent_id": 26
+  },
+  {
+    "id": 28,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 26
+  },
+  {
+    "id": 29,
+    "name": "Различные покупки",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 30,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 29
+  },
+  {
+    "id": 31,
+    "name": "Сбережения и инвестиции",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 32,
+    "name": "На первый взнос",
+    "kind": "expense",
+    "parent_id": 31
+  },
+  {
+    "id": 33,
+    "name": "На отдых",
+    "kind": "expense",
+    "parent_id": 31
+  },
+  {
+    "id": 34,
+    "name": "На машину",
+    "kind": "expense",
+    "parent_id": 31
+  },
+  {
+    "id": 35,
+    "name": "На различные траты",
+    "kind": "expense",
+    "parent_id": 31
+  },
+  {
+    "id": 36,
+    "name": "Подарки",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 37,
+    "name": "День Рождения",
+    "kind": "expense",
+    "parent_id": 36
+  },
+  {
+    "id": 38,
+    "name": "Праздники",
+    "kind": "expense",
+    "parent_id": 36
+  },
+  {
+    "id": 39,
+    "name": "Подарки",
+    "kind": "expense",
+    "parent_id": 36
+  },
+  {
+    "id": 40,
+    "name": "Другое",
+    "kind": "expense",
+    "parent_id": 36
+  },
+  {
+    "id": 101,
+    "name": "Продажи",
+    "kind": "income",
+    "parent_id": null
+  },
+  {
+    "id": 102,
+    "name": "Мёд 3 л",
+    "kind": "income",
+    "parent_id": 101
+  },
+  {
+    "id": 103,
+    "name": "Мёд 1 л",
+    "kind": "income",
+    "parent_id": 101
+  },
+  {
+    "id": 104,
+    "name": "Мёд 0.5 л",
+    "kind": "income",
+    "parent_id": 101
+  },
+  {
+    "id": 105,
+    "name": "Соты",
+    "kind": "income",
+    "parent_id": 101
+  },
+  {
+    "id": 106,
+    "name": "Другое доход",
+    "kind": "income",
+    "parent_id": 101
+  }
+] 
